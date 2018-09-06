@@ -1,0 +1,197 @@
+body {
+  color: #314858;
+  font-family: "Helvetica", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  padding: 50px 0;
+  text-align: center;
+}
+
+header a.github {
+  color: #767676 !important;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+header a.github:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #0067A5 !important;
+}
+
+.btn {
+  background: #E64D66 !important;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  outline: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background: #E12D4B;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.details h2 {
+  color: #314858;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.details .indented {
+  margin-left: 16px;
+}
+
+.details .info-row {
+  margin-top: 20px;
+}
+
+.details h5 {
+  color: #314858;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.details li,
+.details td {
+  color: #314858;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.details .date,
+.details .reference,
+.details .title {
+  display: block;
+  font-size: 16px;
+}
+
+.details-container {
+  margin-bottom: 60px;
+}
+
+#error {
+  color: #E64D66;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  width: 768px;
+}
+
+.login-form,
+.search-container {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin: 0 auto 30px;
+  padding: 45px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-form {
+  margin: 0 auto 100px;
+  max-width: 360px;
+}
+
+.login-form .btn {
+  transition: all 0.3 ease;
+  -webkit-transition: all 0.3 ease;
+}
+
+.login-form input {
+  background: #F2F2F2;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  margin: 0 0 15px;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.login-page {
+  margin: auto;
+  padding: 0;
+  width: 360px;
+}
+
+.pagination {
+  padding: 20px 10px;
+}
+
+.pagination a {
+  margin-left: 10px;
+}
+
+.actors span {
+  font-weight: 600;
+}
+
+.results span,
+.results li {
+  font-size: 14px;
+}
+
+.results .date,
+.results .reference,
+.results .title a {
+  display: block;
+  font-size: 16px;
+}
+
+.results .matched {
+  color: #314858;
+  font-size: 14px !important;
+  margin-top: 10px;
+}
+
+.results .matched p span {
+  font-weight: 600;
+}
+
+.results .matched {
+  font-style: italic;
+}
+
+.results .matched span {
+  font-style: normal;
+}
+
+.results .matched em.highlight {
+  color: #E64D66;
+}
+
+.results .result {
+  border-bottom: 1px solid #314858;
+  padding: 20px 10px;
+}
+
+.results .title {
+  font-weight: 600;
+}
+
+.search-page {
+  margin: auto;
+  padding: 0;
+  width: 768px;
+}
